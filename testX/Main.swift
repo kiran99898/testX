@@ -14,8 +14,7 @@ class Main: UIViewController {
     var newSqlManager =  SqlManager()
     
    // var dataXArray = [ModalX]()
-    let url = "https://ozaira.com/wp-json/wc/v2/products/categories?consumer_key=ck_ae7125c511b7db39f52dfd633b742c748d09150e&consumer_secret=cs_177eadbb770d4a1c6c486207aaec53fc53c48ac6&per_page=100"
-
+    //let url 
     override func viewDidLoad() {
         super.viewDidLoad()
         newSqlManager.createDatabase()
